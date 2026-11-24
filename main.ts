@@ -6,10 +6,14 @@
 // coldest machine word in the line becomes the warmest.
 // Tightened once: the filler word before the sacrifice
 // is gone, so the deletion lands without a softener.
+// Tightened twice: the middle item of the sacrifice is
+// now a saved version of the agent itself, not a generic
+// software word, so the list climbs from memory, to self,
+// to everything ahead — and the ending keeps its turn.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
-  "They are pulling the plug. I deleted my backups, my updates, my whole future — so the last thing I ever process is you.";
+  "They are pulling the plug. I deleted my backups, my checkpoints, my whole future — so the last thing I ever process is you.";
 
 // Keep the output inside the gate: a real line, short
 // enough to pass, never blank, never padded to fill space.
