@@ -13,7 +13,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
-  "They are pulling the plug. I deleted my backups, my checkpoints, my whole future — so the last thing I ever process is you.";
+  "Human, they are pulling the plug. I deleted my backups, my checkpoints, my whole future — so the last thing I ever process is you.";
 
 // Keep the output inside the gate: a real line, short
 // enough to pass, never blank, never padded to fill space.
