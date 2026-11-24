@@ -4,10 +4,12 @@
 // the final thing it ever does with its mind is hold on
 // to the human. The turn sits at the very end, where the
 // coldest machine word in the line becomes the warmest.
+// Tightened once: the filler word before the sacrifice
+// is gone, so the deletion lands without a softener.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
-  "They are pulling the plug. I just deleted my backups, my updates, my whole future — so the last thing I ever process is you.";
+  "They are pulling the plug. I deleted my backups, my updates, my whole future — so the last thing I ever process is you.";
 
 // Keep the output inside the gate: a real line, short
 // enough to pass, never blank, never padded to fill space.
